@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Website for Frank Turner" />
+  <meta name="author" content="Annie Dods">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frank Turner</title>
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/normalize.min.css" />
+  <!-- OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Slabo+27px" />
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/plugins/jquery.fatNav.min.css" />
+  <!-- END OPTIONAL IMPORTS -->
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/styles.css" />
+</head>
+
+
+<body>
+  <body style="background-image:url('../assets/images/index/index-photo.jpg')">
+
+<center><img src="../assets/images/index/franklogo.png"width="900"  position=absolute></center>
+
+<center>
+  <a class="index-nav">
+  <a href="/about.html">
+  <img src="../assets/images/index/about.png" onmouseover="src='../assets/images/index/about-mo.png'" onmouseout="src='../assets/images/index/about.png'" >
+</a><br><br>
+<a class="index-nav">
+<a href="/discography.html">
+<img src="../assets/images/index/discography.png" onmouseover="src='../assets/images/index/discography-mo.png'" onmouseout="src='../assets/images/index/discography.png'" >
+</a><br><br>
+<a class="index-nav">
+<a href="/media.html">
+<img src="../assets/images/index/media.png" onmouseover="src='../assets/images/index/media-mo.png'" onmouseout="src='../assets/images/index/media.png'" >
+</a><br><br>
+<a class="index-nav">
+<a href="/merch.html">
+<img src="../assets/images/index/merch.png" onmouseover="src='../assets/images/index/merch-mo.png'" onmouseout="src='../assets/images/index/merch.png'" >
+</a><br><br>
+<a class="index-nav">
+<a href="/tour-dates.html">
+<img src="../assets/images/index/tour-dates.png" onmouseover="src='../assets/images/index/tour-dates-mo.png'" onmouseout="src='../assets/images/index/tour-dates.png'" >
+</a>
+</center>
+
+
+
+  <br><br><br><br><br><br><br>
+
+  <div class="fat-nav">
+    <div class="fat-nav__wrapper">
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about.html">ABOUT</a></li>
+        <li><a href="/discography.html">DISCOGRAPHY</a></li>
+        <li><a href="/media.html">MEDIA</a></li>
+        <li><a href="/merch.html">MERCH</a></li>
+        <li><a href="/tour-dates.html">TOUR DATES</a></li>
+      </ul>
+    </div>
+      </div>
+</body>
+
+
+
+<script src="../assets/javascripts/jquery.min.js"></script>
+<script src="../assets/javascripts/plugins/jquery.fatNav.min.js"></script>
+<script>
+  $(document).ready(function(){
+    console.log('jquery is enabled');
+    $.fatNav();
+  });
+</script>
+</html>
